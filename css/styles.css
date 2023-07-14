@@ -4,6 +4,12 @@ body{
     background-color: #FFFFFF;
 }
 
+:root {
+    --main-color: hotpink;
+    --pane-padding: 5px 42px;
+  }
+
 .list {
     list-style: none;
 } 
+
