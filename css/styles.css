@@ -11,66 +11,8 @@ body {
     --cornflower: #E7E9FC;
     --slate: #434455;
     --cloud: #F4F4FD;
-    --white: #FFF;
 }
 
-/*index html*/
-.title-board {
-    background: var(--navyblue);
-}
-
-.title-board-text {
-    color: var(--white);
-    text-align: center;
-    font-family: Roboto;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.7; 
-    letter-spacing: 0.02em;
-}
-
-.title-board-button {
-    color: var(--white);
-    /* Button Text */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.04em;
-    /*Button*/
-    border-radius: 4px;
-    background: var(--iris);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
-.body-information-text {
-}
-
-.body-information-text-tytle {
-    color: var(--navyblue);
-    /* Header 3 */
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.2; /* 120% */
-    letter-spacing: 0.02em;
-}
-
-.body-information-text-paragraph {
-    color: var(--slate);
-    /* Body */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.02em;
-}
-
-/*Portfolio*/
 .title-button-list {
     list-style: none;
 } 
@@ -91,12 +33,8 @@ body {
 }
 
 
-.list {
-    list-style: none;
-}
-
-.link {
-    text-decoration-line: none;
+.title-link> li {
+    list-style-type: none;
 }
 
 .title-list {
@@ -113,7 +51,8 @@ body {
     color: var(--navyblue);
 }
 
-.title-adress-list {
+.title-adress-list> li {
+    list-style-type: none;
 }
 
 .title-contacts {
@@ -142,6 +81,7 @@ body {
 }
 
 .title-images-menu {
+    list-style-type: none;
 }
 
 .title-images-menu-title {
@@ -165,6 +105,7 @@ body {
 }
 
 .body-images-menu {
+    list-style-type: none;
 }
 
 .body-images-menu-title {
@@ -185,9 +126,10 @@ body {
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.02em;
-} 
+} f
 
 .footer-images-menu {
+    list-style-type: none;
 }
 
 .footer-images-menu-title {
@@ -237,6 +179,5 @@ body {
 }
 
 .footer-logo-part {
-    color: var(--iris);
+color: var(--iris);
 }
-
