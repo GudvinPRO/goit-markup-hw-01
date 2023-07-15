@@ -4,7 +4,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.list {
+.title-button-list {
     list-style: none;
 } 
 
@@ -23,6 +23,11 @@ body {
     color:#4D5AE5;
 }
 
+
+.title-link> li {
+    list-style-type: none;
+}
+
 .title-list {
     font-family: Roboto;
     font-size: 16px;
@@ -32,15 +37,11 @@ body {
     letter-spacing: 0.02em;
 }
 
-.title-link> li {
-    list-style-type: none;
-}
-
 .title-list-link {
     text-decoration: none;
 }
 
-.title-adress> li {
+.title-adress-list> li {
     list-style-type: none;
 }
 
@@ -53,4 +54,16 @@ body {
     line-height: 1.5; 
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+
+.title-button-menu {
+    color: #4D5AE5;
+    text-align: center;
+    /* Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
 }
