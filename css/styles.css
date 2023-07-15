@@ -1,4 +1,4 @@
-body{
+body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
@@ -8,7 +8,49 @@ body{
     list-style: none;
 } 
 
-:root {
-    --main-color: hotpink;
-    --pane-padding: 5px 42px;
-  }
+.logo-web {
+    color:#2E2F42;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+
+.logo-part {
+    color:#4D5AE5;
+}
+
+.title-list {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+}
+
+.title-link> li {
+    list-style-type: none;
+}
+
+.title-list-link {
+    text-decoration: none;
+}
+
+.title-adress> li {
+    list-style-type: none;
+}
+
+.title-contacts {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
